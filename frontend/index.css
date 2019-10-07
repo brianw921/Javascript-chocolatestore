@@ -1,0 +1,53 @@
+#product-list
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+#intro-box{
+    background-image: url("https://images.freeimages.com/images/premium/previews/3193/31930878-lot-of-different-chocolate-truffles-in-store.jpg");
+    height: 200px;
+}
+
+#welcome-text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#welcome
+{
+    margin-top: 75px;
+}
+ul#nav-bar{
+    background-color: rgb(136, 60, 60);
+    display: flex;
+}
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    margin-left: 19%;
+}
+
+
+li {
+    float: left;
+    margin-left: 19%;
+}
